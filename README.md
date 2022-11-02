@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Final-Project
 ## **What is the safest city to live in North Carolina?**
 According to Josh Howarth in a recent article, North Carolina has three of the fastest growing cities. North Carolina has many booming industries such as finance, science and education to offer for those that are here and those that move to the state. With much growth coming to the state, it’s important to know where are the safest area to live are.
@@ -17,3 +18,8 @@ The data that we sourced was gathered from the FBI website which has tables thro
 We are determine safety by summing up total crime(non-violent and violent) crimes then dividing it by the population in that particular city by the population. We create that percentage to then compare against other percentages. Once we have the calculated crime percentages we compare them against one another and found the average. The average fell around 5.5 so we found up to 6% as it was on the higher end to not dimiss majority of the cities calling them unsafe. This gave a lower threshold as any city is going to present risk regardless. The cities that were at or above this threshold were deemed unsafe.
 
 Our group has dececided to communicate through slack and meet on Tuesdays around 7:30pm if need be.
+=======
+# Machine Learning Model
+
+For this project we will use a Logistics Regression Model to learn and predict whether a city is considered "safe" in North Carolina.
+>>>>>>> 7a49042b2d090067ef81c1711a5c3c6cb7aa0e7b
