@@ -18,6 +18,12 @@ We are determine safety by summing up total crime(non-violent and violent) crime
 
 Our group has dececided to communicate through slack and meet on Tuesdays around 7:30pm if need be.
 
+The questions we are hoping to answer:
+Where are the safest cities in North Carolina?
+What cities are safe in North Carolina?
+What is the difference in crime from 2016 and 2019?
+
+
 # Sources
 https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/north_carolina.xls
 https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/tables/table-6/table-6-state-cuts/north-carolina.xls
