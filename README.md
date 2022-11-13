@@ -27,3 +27,4 @@ What is the difference in crime from 2016 and 2019?
 # Sources
 https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/north_carolina.xls
 https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/tables/table-6/table-6-state-cuts/north-carolina.xls
+https://public.tableau.com/views/FP1_16680230944460/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
