@@ -16,7 +16,7 @@ The data that we sourced was gathered from the FBI website which has tables thro
 
 We are determine safety by summing up total crime(non-violent and violent) crimes then dividing it by the population in that particular city by the population. We create that percentage to then compare against other percentages. Once we have the calculated crime percentages we compare them against one another and found the average. The average fell around 5.5 so we found up to 6% as it was on the higher end to not dimiss majority of the cities calling them unsafe. This gave a lower threshold as any city is going to present risk regardless. The cities that were at or above this threshold were deemed unsafe.
 
-Our group has dececided to communicate through slack and meet on Tuesdays around 7:30pm if need be.
+Our supervised machine learning uses a logistic regression predicts binary outcomes. This model will analyze the available data, and when presented a new sample, mathematically determine its probability of belonging to a class. If the probability is above a certain cutoff point, the sample is assigned to that class. If the probability is less than the cutoff point, the sample is assigned to the other class.
 
 The questions we are hoping to answer:
 Which cities have the least crime in North Carolina?
