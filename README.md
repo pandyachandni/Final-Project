@@ -40,7 +40,7 @@ Our datasets contained the names of each city in North Carolina, their respectiv
 
 Our group had to decide how we would determine whether a city would be deemed **safe** and we all agreed to determine safety by calculating each city's crime index. Crime index is calculated by summing up total crime(non-violent and violent) of each respective city then dividing that total by the population and multipying it by 100. 
 
-These percentages were used as a metric of comparison amongst the different cities. The average crime idex fell around 5.5 so we came to conclusion to use a crime index 6% as a  as a threshold to determine a citie's **safety**. The cities that were at or above this threshold were deemed **unsafe**. We used a boolean to give a true statement if yes the city is safe and a false if no the city is unsafe.
+These percentages were used as a metric of comparison amongst the different cities. The average crime idex fell around 5.5 so we came to conclusion to use a crime index 6% as a  as a threshold to determine a city's **safety**. The cities that were at or above this threshold were deemed **unsafe**. We used a boolean to give a true statement if yes the city is safe and a false if no the city is unsafe.
 
 ![Screen Shot 2022-11-20 at 9 47 05 PM](https://user-images.githubusercontent.com/107590706/202952529-737bd7e9-0302-4d60-8867-d7189b39f39d.png)
 
