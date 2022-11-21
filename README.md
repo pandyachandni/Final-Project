@@ -20,10 +20,12 @@ We are determine safety by summing up total crime(non-violent and violent) crime
 
 Our supervised machine learning uses a logistic regression predicts binary outcomes. This model will analyze the available data, and when presented a new sample, mathematically determine its probability of belonging to a class. If the probability is above a certain cutoff point, the sample is assigned to that class. If the probability is less than the cutoff point, the sample is assigned to the other class.
 
+We decided to clean our data as much as we could before hand so running the code would give a easier time. When we were cleaning our code what we were doing was removing columns that were double counted, titles to not count in calculations, and create the crime index score as a column. From this we uploaded that csv and identified each data type for each column. We needed to clean the data once again because total violent crimes and total property crime were double counted.
+
 The questions we are hoping to answer:
-Which cities have the least crime in North Carolina?
-What cities are safe in North Carolina
-What is the difference in crime from 2016 and 2019?
+* Which cities have the least crime in North Carolina?
+* What cities are safe in North Carolina
+* What is the difference in crime from 2016 and 2019?
 
 
 # Sources
