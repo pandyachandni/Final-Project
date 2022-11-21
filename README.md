@@ -22,6 +22,8 @@ Our supervised machine learning uses a logistic regression predicts binary outco
 
 We decided to clean our data as much as we could before hand so running the code would give a easier time. When we were cleaning our code what we were doing was removing columns that were double counted, titles to not count in calculations, and create the crime index score as a column. From this we uploaded that csv and identified each data type for each column. We needed to clean the data once again because total violent crimes and total property crime were double counted.
 
+Our model showing an accuracy score of 1.0 means that the model can predict with 100% accuracy if the city is considered safe(1) or not (0). Training our model means that we would need more data from the FBI released going forward with the years. We can further train and give accurate data as time moves forward
+
 The questions we are hoping to answer:
 * Which cities have the least crime in North Carolina?
 * What cities are safe in North Carolina
