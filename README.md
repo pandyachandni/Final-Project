@@ -14,13 +14,15 @@ The reason that we choose this topic is because it relates to the majority of pe
  
 The data that we sourced was gathered from the FBI website which has tables throughout the years. We are looking at data specifically from 2016 to 2019. 2019 is the latest data that is avalible and looking over the course of years can give us an idea of safety as well as city growth. Comparing the 2 years also shows us how a city might have changed.
 
-We are determine safety by summing up total crime(non-violent and violent) crimes then dividing it by the population in that particular city by the population. We create that percentage to then compare against other percentages. Once we have the calculated crime percentages we compare them against one another and found the average. The average fell around 5.5 so we found up to 6% as it was on the higher end to not dimiss majority of the cities calling them unsafe. This gave a lower threshold as any city is going to present risk regardless. The cities that were at or above this threshold were deemed unsafe.
+We are determine safety by summing up total crime(non-violent and violent) crimes then dividing it by the population in that particular city by the population and multipying it by 100. We created that percentage to then compare against other percentages. Once we have the calculated crime percentages we compare them against one another and found the average. The average fell around 5.5 so we rounded up to 6% as it was on the higher end to not dimiss majority of the cities calling them unsafe. This gave a lower threshold as any city is going to present risk regardless. The cities that were at or above this threshold were deemed unsafe. We used a boolean to give a true statement if yes the city is safe and a no if the city is unsafe.
+
+![Screen Shot 2022-11-20 at 9 47 05 PM](https://user-images.githubusercontent.com/107590706/202952529-737bd7e9-0302-4d60-8867-d7189b39f39d.png)
 
 Our supervised machine learning uses a logistic regression predicts binary outcomes. This model will analyze the available data, and when presented a new sample, mathematically determine its probability of belonging to a class. If the probability is above a certain cutoff point, the sample is assigned to that class. If the probability is less than the cutoff point, the sample is assigned to the other class.
 
 The questions we are hoping to answer:
 Which cities have the least crime in North Carolina?
-What cities are safe in North Carolina?
+What cities are safe in North Carolina
 What is the difference in crime from 2016 and 2019?
 
 
@@ -28,3 +30,5 @@ What is the difference in crime from 2016 and 2019?
  * https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/north_carolina.xls
  * https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/tables/table-6/table-6-state-cuts/north-carolina.xls
  * https://public.tableau.com/views/FP1_16680230944460/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+What is the difference in crime from 2016 and 2019?
