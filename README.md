@@ -25,7 +25,7 @@ The data that we sourced was gathered from the [FBI website](https://ucr.fbi.gov
 
 We used a supervised machine learning algorithm to classify each city's safety based on their calculated crime index and associated crime statistics. We used a `logistic regression model` because it is the go-to method for binary classfication problems and is a model that is simple to implement, interpret, and efficient to train. This model will analyze the available data, and when presented a new sample, mathematically determine its probability of belonging to a class. If the probability is above a certain cutoff point, the sample is assigned to that class. If the probability is less than the cutoff point, the sample is assigned to the other class.
 
-Our datasets contained the names of each city in North Carolina, their respective population, and annual totals of a list of non-violent and violent crimes. (see list below)
+Our datasets contained the names of each city in North Carolina, their respective population, and annual totals of different types of crime (see list below)
 
   * Violent Crimes
     * Murder and non-negligent manslaughter
@@ -38,7 +38,7 @@ Our datasets contained the names of each city in North Carolina, their respectiv
     * Motor Vehicle theft  
     * Arson
 
-Our group had to decide how we would determine which city would be deemed **safe** and we all agreed to determine safety by calculating each city's crime index. Crime index is calculated by summing up total crime(non-violent and violent) of each respective city then dividing that total by the population and multipying it by 100. 
+Our group had to decide how we would determine whether a city would be deemed **safe** and we all agreed to determine safety by calculating each city's crime index. Crime index is calculated by summing up total crime(non-violent and violent) of each respective city then dividing that total by the population and multipying it by 100. 
 
 These percentages were used as a metric of comparison amongst the different cities. The average crime idex fell around 5.5 so we came to conclusion to use a crime index 6% as a  as a threshold to determine a citie's **safety**. The cities that were at or above this threshold were deemed **unsafe**. We used a boolean to give a true statement if yes the city is safe and a false if no the city is unsafe.
 
