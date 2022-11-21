@@ -45,7 +45,7 @@ These percentages were used as a metric of comparison amongst the different citi
 ![Screen Shot 2022-11-20 at 9 47 05 PM](https://user-images.githubusercontent.com/107590706/202952529-737bd7e9-0302-4d60-8867-d7189b39f39d.png)
 
 
-In `Jupyter Notebook` we arranged the data into a format acceptable for the train_test_split function in the `Scikit-learn` library for `Python`. We cleaned each dataframe for both years in the same manner by dropping the Violent_crime_total, Property_Crime_total, and City column. 
+In `Jupyter Notebook` we arranged the data into a format acceptable for the train_test_split function in the `Scikit-learn` library for `Python`. We cleaned each dataframe for both years in the same manner by dropping the `Violent_crime_total`, `Property_Crime_total`, and `City` column. 
 
 ![cleaning_df_process](https://user-images.githubusercontent.com/107579508/203107324-4ccd88ba-7365-46da-ba82-83d15bede302.png)
 
